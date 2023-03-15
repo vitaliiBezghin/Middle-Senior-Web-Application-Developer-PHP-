@@ -2,12 +2,13 @@ composer install
 
 php artisan key:generate
 
+Setup db and copy database credentials to .env file
+
 php artisan optimize
 
 php artisan db:seed --class=ProductSeeder
 
-Setup db and copy database credentials to .env file
-After thar run - php artisan serve
+php artisan serve
 
 Products api routes:
 http://127.0.0.1:8000/api/products GET
