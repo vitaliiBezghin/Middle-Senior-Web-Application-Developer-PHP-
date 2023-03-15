@@ -4,6 +4,8 @@ php artisan key:generate
 
 php artisan optimize
 
+php artisan db:seed --class=ProductSeeder
+
 Setup db and copy database credentials to .env file
 After thar run - php artisan serve
 
